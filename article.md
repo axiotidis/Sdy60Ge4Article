@@ -285,7 +285,7 @@ e-scooters, παιχνιδοποίηση (gameficiation), html, javascript, fire
 
 *Εικόνα 34. Προσθήκη πεδίου “info” στη βάση δεδομένων*
 
-![](pics/pic_35.png)
+![](pics/pic_35.jpg)
 
 *Εικόνα 35. Απεικόνιση πληροφοριών ιστορικών μνημείων σε μορφή  popup*
 
