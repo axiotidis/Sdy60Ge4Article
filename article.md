@@ -18,21 +18,21 @@ e-scooters, παιχνιδοποίηση (gameficiation), html, javascript, fire
 ### **2. Προηγούμενη έρευνα**
 
 Αναζητήσαμε σχετικές ερευνητικές εργασίες και εμπορικές εφαρμογές, παρατηρήσαμε ότι ενώ υπάρχουν αρκετές εμπορικές εφαρμογές ενοικίασης πατινιού (Lime, Bird, Circ, Tier, Voi κλπ), υπάρχουν ελάχιστες ερευνητικές εργασίες οι οποίες να συνδυάζουν την ενοικίαση πατινιών σε χώρους πολιτιστικού ενδιαφέροντος και με στοιχεία παιχνιδοποίησης, έτσι αναζητήσαμε βιβλιογραφία και σε σχετικά πεδία όσον αφορά την εφαρμογή που καλούμαστε να σχεδιάσουμε και να αξιολογήσουμε. 
-Βασισμένοι λοιπόν στις εμπορικές εφαρμογές και στις εργασίες των Hamza Diaz [1], Kazhamiakin et al. [2] και Noguera J. M. et al. [3] καταλήξαμε στις βασικές σχεδιαστικές αρχές που θα πρέπει να ικανοποιεί.  
+Βασισμένοι λοιπόν στις εμπορικές εφαρμογές και στις εργασίες των Hamza Diaz [3], Kazhamiakin et al. [5] και Noguera J. M. et al. [9] καταλήξαμε στις βασικές σχεδιαστικές αρχές που θα πρέπει να ικανοποιεί.  
 
 ### **3. Ανάπτυξη της εφαρμογής**
 **3.1. Βασικές σχεδιαστικές αρχές**
 
-Μελετώντας τη βιβλιογραφία [1-3] καταλήξαμε στο ότι η εφαρμογή μας για να είναι εύχρηστη, χρήσιμη, ελκυστική και για πραγματώνει το σκοπό της δημιουργίας της, θα πρέπει να ικανοποιεί τις εξής βασικές σχεδιαστικές αρχές:
+Μελετώντας τη βιβλιογραφία [3, 5, 9] καταλήξαμε στο ότι η εφαρμογή μας για να είναι εύχρηστη, χρήσιμη, ελκυστική και για πραγματώνει το σκοπό της δημιουργίας της, θα πρέπει να ικανοποιεί τις εξής βασικές σχεδιαστικές αρχές:
 
 * Πριν την ενοικίαση ο χρήστης θα πρέπει να πληροφορείται για το **κόστος ενοικίασης** και τη **στάθμη της μπαταρίας** του πατινιού. 
 * Θα πρέπει στο χάρτη να εμφανίζονται τα **διαθέσιμα** προς ενοικίαση πατίνια.  
 * Η εφαρμογή θα πρέπει να επιτρέπει την εγγραφή και τη χρήση του πατινιού **μόνο σε ενήλικες χρήστες**. 
 * Θα πρέπει η εφαρμογή να **προάγει την ασφάλεια**. 
-* Στο χάρτη θα πρέπει να εμφανίζονται **markers με ενσωματωμένη πληροφορία** για τα σημεία πολιτιστικού ενδιαφέροντος [1]. 
+* Στο χάρτη θα πρέπει να εμφανίζονται **markers με ενσωματωμένη πληροφορία** για τα σημεία πολιτιστικού ενδιαφέροντος [3]. 
 * Στο χάρτη θα πρέπει να εμφανίζονται markers με τα σημεία που βρίσκονται **σταθμευμένα** τα πατίνια.
 * Θα πρέπει να υπάρχει **διάκριση** (διαφορετικά εικονίδια) μεταξύ των markers που αντιπροσωπεύουν πατίνια και εκείνων που αντιπροσωπεύουν σημεία πολιτιστικού ενδιαφέροντος. 
-* Οι κύριες λειτουργίες της εφαρμογής πρέπει να ακολουθούν την εξής σειρά: **Εύρεση** κοντινού πατινιού → **Σάρωση** QR code για να πραγματοποιηθεί η κράτηση → **Οδήγηση** πατινιού → **Πληρωμή** αντιτίμου [2]. 
+* Οι κύριες λειτουργίες της εφαρμογής πρέπει να ακολουθούν την εξής σειρά: **Εύρεση** κοντινού πατινιού → **Σάρωση** QR code για να πραγματοποιηθεί η κράτηση → **Οδήγηση** πατινιού → **Πληρωμή** αντιτίμου [5]. 
 * Στην κινητή εφαρμογή πρέπει να εμφανίζεται σε real-time **η τρέχουσα θέση του χρήστη** στο χάρτη.
 * Στην εφαρμογή μας πέρα από τους συνηθισμένους τρόπους πληρωμής θα προσθέσουμε τη **δυνατότητα χρέωσης μέσω μηνύματος SMS**. 
 
@@ -179,6 +179,7 @@ e-scooters, παιχνιδοποίηση (gameficiation), html, javascript, fire
 
 **3.4.3. Υλοποίηση της φορετής εφαρμογής**
 
+Πριν ξεκινήσουμε την υλοποίηση της φορετής εφαρμογής μελετήσαμε την εργασία των Rawassizadeh R. at all [10] καθώς και τις σχεδιαστικές αρχές που προτείνει η google για το wear OS [11]. 
 Το smartwatch που χρησιμοποιήθηκε για τη δοκιμή της εφαρμογής ήταν ένα **Samsung Watch 46mm** στο οποίο ήταν εγκατεστημένη η εφαρμογή **Samsung Internet browser**, η οθόνη του smartwatch είναι στρόγγυλη και έχει ανάλυση **360 x 360 pixels** έτσι προσαρμόστηκαν ανάλογα τα περιεχόμενα, το zoom του χάρτη καθώς και το CSS αρχείο (**style.css**) που φροντίζει για την εμφάνιση της εφαρμογής.  Στην εικόνα 22 απεικονίζεται ο κώδικας της πρώτης σελίδας της εφαρμογής που είναι μια τυπική οθόνη καλωσορίσματος (**index.html**).
 
 ![](pics/pic_22.jpg)
@@ -193,7 +194,8 @@ e-scooters, παιχνιδοποίηση (gameficiation), html, javascript, fire
 
 **3.5. Αξιολόγηση της εφαρμογής**
 
-Εκτελέστηκε με τη συμμετοχή πέντε χρηστών αξιολόγηση  τόσο της κινητής όσο και desktop έκδοσης της εφαρμογής μας στο πεδίο της ευχρηστίας και της  αποτελεσματικότητας. 
+Για το σχεδιασμό της αξιολόγησης λάβαμε υπόψη τις εργασίες [1, 2, 4, 6, 7, 8] προσαρμόζοντας τις απαιτήσεις μας στις ιδιαίτερες ανάγκες της εφαρμογής μας.
+Στη συνέχεια εκτελέστηκε με τη συμμετοχή πέντε χρηστών αξιολόγηση  τόσο της κινητής όσο και desktop έκδοσης της εφαρμογής μας στο πεδίο της ευχρηστίας και της  αποτελεσματικότητας. 
 
 Για την αξιολόγηση της αποτελεσματικότητας οι χρήστες επικεντρώθηκαν σε τρεις λειτουργίες της εφαρμογής, **εγγραφή** στην εφαρμογή(Sign Up), **σύνδεση και αναζήτηση** ελεύθερου πατινιού (Searching) και τέλος **κράτηση** πατινιού (Booking). Η εκτέλεση των λειτουργιών έγινε δύο φορές από το κάθε χρήστη. 
 
@@ -291,8 +293,25 @@ e-scooters, παιχνιδοποίηση (gameficiation), html, javascript, fire
 
 ### **Αναφορές** 
 
-1. Hamza Diaz, (June 2019), Electric Scooter Sharing Application, TFG EN ENGINYERIA INFORMÀTICA, ESCOLA D’ENGINYERIA (EE), UNIVERSITAT AUTÒNOMA DE BARCELONA (UAB) 
+1. Dominic P. D. D., Jati, H., Kannabiran G. (2010). Performance evaluation on quality of Asian e-government websites - An AHP approach. Article in International Journal of Business Information Systems 6(2):219-239. doi: https://doi.org/10.1504/ijbis.2010.034355 
 
-2. Kazhamiakin, R., Marconi, A., Martinelli, A., Pistore, M., & Valetto, G. (2016). A gamification framework for the long-term engagement of smart citizens. 2016 IEEE International Smart Cities Conference (ISC2). https://doi.org/10.1109/isc2.2016.7580746 
+2. Fernandez Α., Insfran Ε., Abrahão S. (2011). Usability evaluation methods for the web: A systematic mapping study. ISSI Research Group, Department of Information Systems and Computation, Universitat Politécnica de Valéncia, Camino de Vera, s/n, 46022 Valencia,Spain. doi: https://doi.org/10.1016/j.infsof.2011.02.007 
 
-3. Noguera, J. M., Barranco, M. J., Segura, R. J., & Martínez, L. (2012). A mobile 3D-GIS hybrid recommender system for tourism. Information Sciences, 215, 37–52. https://doi.org/10.1016/j.ins.2012.05.010 
+3. Hamza Diaz, (June 2019), Electric Scooter Sharing Application, TFG EN ENGINYERIA INFORMÀTICA, ESCOLA D’ENGINYERIA (EE), UNIVERSITAT AUTÒNOMA DE BARCELONA (UAB) 
+
+4. Kaikkonen A., Kekäläinen A., Cankar M., Kallio T., Kankainen A. (2005). Usability testing of mobile applications: a comparison between laboratory and field testing. J Usability Study 1:4–16  
+
+5. Kazhamiakin, R., Marconi, A., Martinelli, A., Pistore, M., & Valetto, G. (2016). A gamification framework for the long-term engagement of smart citizens. 2016 IEEE International Smart Cities Conference (ISC2). https://doi.org/10.1109/isc2.2016.7580746 
+
+6. Moumane K., Idri A., & Abran A. (2016). Usability evaluation of mobile applications using ISO9241 and ISO 25062 standards. SpringerPlus (2016) 5:548. doi: https://doi.org/10.1186/s40064-016-2171-z 
+
+7. Mvungi J., Tossy T., (2015). Usability Evaluation Methods and Principles for the Web.  International Journal of Computer Science and Information Security, Vol. 13, No. 7, July 2015. 
+
+8. Nayebi F., Desharnais J.M. & Abran A. (2012, April). The state of the art of mobile application usability evaluation. In 2012 25th IEEE Canadian Conference on Electrical and Computer Engineering (CCECE) (pp. 1-4). IEEE. doi: https://doi.org/10.1109/ccece.2012.6334930
+
+9. Noguera, J. M., Barranco, M. J., Segura, R. J., & Martínez, L. (2012). A mobile 3D-GIS hybrid recommender system for tourism. Information Sciences, 215, 37–52. https://doi.org/10.1016/j.ins.2012.05.010 
+
+10. Rawassizadeh, R., Price, B. A., & Petre, M. (2014). Wearables: Has the Age of Smartwatches Finally Arrived?. Communications of the ACM, 58(1), 45–47. doi: http://dx.doi.org/10.1145/2629633
+
+11. https://designguidelines.withgoogle.com/wearos/wear-os-by-google/introduction.html
+
