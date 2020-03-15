@@ -172,6 +172,7 @@ e-scooters, παιχνιδοποίηση (gameficiation), html, javascript, fire
 Ο κώδικας βρίσκεται αναρτημένος σε δημόσιο αποθετήριο στο [github](https://github.com/axiotidis/mscooter) και παρακάτω παραθέτουμε εικόνες από την κινητή εφαρμογή.
 
 ![](pics/pic_21a.jpg)
+
 ![](pics/pic_21b.jpg)
 
 *Εικόνα 21. Σύνοψη των οθονών της κινητής εφαρμογής*
